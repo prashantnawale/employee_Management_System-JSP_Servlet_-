@@ -1,0 +1,132 @@
+
+create Employee detail table
+-----------------------------
+
+CREATE TABLE employeedetail(
+    id int,
+    first_name VARCHAR(55),
+    last_name VARCHAR(55),
+    middel_name VARCHAR(55),
+    birth_date VARCHAR(55),
+    mobile_number VARCHAR(55),
+    pan_no varchar(55),
+    adhar_no varchar(55),
+    email_id varchar(55),
+    joining_date varchar(55),
+    other varchar(55),
+    Cast varchar(55),
+    Religion varchar(55),
+    address varchar(100),
+    job_post varchar(55),
+    ssc_mark varchar(55),
+    ssc_board varchar(55),
+    hsc_mark varchar(55),
+    hsc_board varchar(55),
+    graduation_mark varchar(55),
+    graduation_board varchar(55),
+    postgraduation_mark varchar(55),
+     postgraduation_board varchar(55),
+    other_education_details varchar(55),
+     other_education_marks varchar(55),
+     other_education_board varchar(55),
+    garantor varchar(55),
+    authentic varchar(55),
+    inheritor varchar(55),
+    address_of_inheritor varchar(55),
+    relation_with_inheritor varchar(55),
+    joining_place varchar(55)
+    )
+create SEQUENCE id
+
+
+	pigmydetail1
+	prerakdetail1
+	cspdetail1
+__________________________________________________________________________________________________________
+
+
+create  table employee_login
+(First_Name varchar(55),
+Last_Name varchar(55),
+Username varchar(55),
+Password varchar(55),
+confirmpassword varchar(55)) 
+
+		
+	agentlogin
+	preraklogin
+	csplogin
+_______________________________________________________________________________________________________________________
+create Employee Extra Detail Table
+
+create table Employee_Extra_Detail
+(eid varchar(55),
+First_name varchar(55),
+Middel_name varchar(55),
+Last_name varchar(55),
+Policy_Type varchar(55),
+Policy_Company varchar(55),
+Policy_Validity varchar(55),
+Policy_Amount varchar(55),
+Maturity_Amount varchar(55),
+Policy_Number varchar(55),
+Joining_Place varchar(55),
+Joining_Date varchar(55),
+Position varchar(55),
+Payment varchar(55),
+Pramotion_Date1 varchar(55),
+Working_Place1 varchar(55),
+Position1 varchar(55),
+Payment1 varchar(55),
+Pramotion_Date2 varchar(55),
+Working_Place2 varchar(55),
+Position2 varchar(55),
+Payment2 varchar(55))
+
+
+_______________________________________________________________________________________________________________________
+insert Query
+
+INSERT INTO `employeedetails` (`id`, `first_name`, `last_name`, `middel_name`, `birth_date`, `mobile_number`, `pan_no`, `adhar_no`, `email_id`, `joining_date`, `other`, `address`, `job_post`, `ssc_mark`, `ssc_board`, `hsc_mark`, `hsc_board`, `graduation_mark`, `graduation_board`, `postgraduation_mark`, `postgraduation_board`, `other_education_details`, `other_education_marks`, `other_education_board`, `garantor`, `authentic`, `inheritor`, `address_of_inheritor`, `relation_with_inheritor`, `joining_place`) VALUES (NULL, 'prashant', 'nawale', 'sanjay', '23/3/1999', '9028271245', 'panert456', '546278910', 'prashantnawale@gmail.com', '14/1/2020', 'check,agriment', 'burudgoanroad behind of T.C.I.Godown Ahmednagar.', 'software devloper', '77', 'pune', '88', 'pune', '88', 'pune', 'no', 'no', 'no', 'no', 'no', 'no', 'self', 'self', 'self', 'self', 'HO');
+
+
+_________________________________________________________________________________________________________________________________________________________________________________________________
+
+EXTRA DETAILS TABLE 
+
+create table extradetail1
+		
+	     Agent_Extra_Detail1
+		
+	     prerak_Extra_Detail1
+
+	     CSP_Extra_Detail1
+
+(
+Employee_Id int,
+first_name varchar(55),
+middel_name varchar(55),
+last_name varchar(55),
+Insurance_Type varchar(55),
+insurance_company varchar(55),
+insurance_validity varchar(55),
+insurance_amount varchar(55),
+Maturity_Amount varchar(55),
+Insurance_Number varchar(55),
+Joining_Place varchar(55),
+joining_date varchar(55),
+position varchar(55),
+payment varchar(55),
+Pramotion_Date1 varchar(55),
+Working_Place1 varchar(55),
+Position1 varchar(55),
+payment1 varchar(55),
+pramotion_date2 varchar(55),
+working_place2 varchar(55),
+Position2 varchar(55),
+payment2 varchar(55),
+
+Name_Of_Bank varchar(55),
+Branch_IFSC_Code varchar(55),
+Account_No varchar(55),
+JKM_Account_NO varchar(55))
